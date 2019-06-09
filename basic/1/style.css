@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#first-section {
+    background: blueviolet;
+}
+
+#second-section {
+    background: brown;
+}
+
+.section-title {
+    color: aqua;
+}
+
+#first-section h1 {
+    color: brown;
+}
+
+/*select h2 stands immediately after p*/
+p + h2 {
+    background-color: aqua;
+}
+
+/*select h6 somewhere (after) on same level as p*/
+p ~ h6 {
+    background-color: blueviolet;
+}
+
+/*select h4 first level child of p*/
+p > h4 {
+    background-color: bisque;
+}
+
+/*select all h5 inside div*/
+div h5 {
+    background-color: crimson;
+}
