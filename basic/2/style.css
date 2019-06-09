@@ -7,21 +7,15 @@ body {
     margin: 0;
 }
 
-#second-section {
-    background-color: aqua;
-    padding: 20px;
-    border: 5px black solid;
-    margin: 20px;
-}
 
-#second-section::first-letter {
-    color: red;
-}
+/*#second-section::first-letter {*/
+/*    color: red;*/
+/*}*/
 
 #first-section {
     background: url("freedom.jpg");
     width: 100%;
-    height: 600px;
+    height: 400px;
     padding: 20px;
 }
 
@@ -104,3 +98,131 @@ body {
 /*a:not(.active){*/
 /*    color: blue;*/
 /*}*/
+
+/*#second-section {*/
+/*    background-color: aqua;*/
+/*    padding: 20px;*/
+/*    border: 5px black solid;*/
+/*    margin: 20px;*/
+/*}*/
+
+#second-section {
+
+}
+
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.plan__annotation {
+    background: white;
+    color: #19b84c;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan__features {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+
+.plan__features li {
+    margin: 8px 0;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.plan__button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.plan__button:hover,
+.plan__button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.plan__button:focus {
+    outline: none;
+}
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 60px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-features__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: center;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #242424;
+    border-radius: 50%;
+    margin: auto;
+}
