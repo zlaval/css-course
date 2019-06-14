@@ -8,9 +8,11 @@
     /*background-position: center;*/
     /*background-origin: border-box;*/
     /*background-clip: border-box;*/
-    background: url("freedom.jpg") center/ cover no-repeat border-box border-box;
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("freedom.jpg") center/ cover no-repeat border-box border-box, red;
     /*background-position: left top;*/
     /*background-position: left 10% top 50%;*/
+    /*background-image: linear-gradient(to left bottom,red 70%,blue, green, transparent);*/
     width: 100%;
     height: 600px;
     padding: 20px;
@@ -91,6 +93,7 @@
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
+    /*filter: blur(1px);*/
 }
 
 .plan__button:hover,
@@ -141,6 +144,7 @@
     border: 2px solid #242424;
     border-radius: 50%;
     margin: auto;
+    padding: 20px;
 }
 
 .plants {
